@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DBApp.UpdateData">
+    <children>
+        <Label layoutX="106.0" layoutY="14.0" prefHeight="27.0" prefWidth="162.0" text="UPDATE REQUIRED DATA">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Button layoutX="114.0" layoutY="41.0" mnemonicParsing="false" onAction="#ShowDetails" prefHeight="37.0" prefWidth="142.0" text="SHOW DETAILS" />
+        <Label layoutX="85.0" layoutY="95.0" prefHeight="27.0" prefWidth="198.0" text="UPDATE DATA FOR REQUIRED NAME">
+            <font>
+                <Font size="12.0" />
+            </font></Label>
+        <Label layoutX="30.0" layoutY="122.0" prefHeight="27.0" prefWidth="76.0" text="Name : " />
+        <TextField fx:id="txtName" layoutX="106.0" layoutY="123.0" prefHeight="25.0" prefWidth="198.0" promptText="Enter Name" />
+        <Label layoutX="30.0" layoutY="162.0" prefHeight="27.0" prefWidth="76.0" text="Age : " />
+        <TextField fx:id="txtAge" layoutX="106.0" layoutY="163.0" prefHeight="25.0" prefWidth="198.0" promptText="Enter Age" />
+        <Label layoutX="30.0" layoutY="202.0" prefHeight="27.0" prefWidth="76.0" text="Email : " />
+        <TextField fx:id="txtMail" layoutX="106.0" layoutY="203.0" prefHeight="25.0" prefWidth="198.0" promptText="Enter Email" />
+        <Button layoutX="147.0" layoutY="239.0" mnemonicParsing="false" onAction="#updateDetails" prefHeight="34.0" prefWidth="74.0" text="GO" />
+    </children>
+</AnchorPane>
